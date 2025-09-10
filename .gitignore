@@ -61,4 +61,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+Essentials/Library/PackageCache/
+
 Essentials/Library/
+
