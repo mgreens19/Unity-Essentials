@@ -1836,6 +1836,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_Tower (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3192622717191077697, guid: b4733dc44040ec642aa483fa503a4185,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2766
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
