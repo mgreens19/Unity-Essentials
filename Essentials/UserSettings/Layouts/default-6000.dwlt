@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Tutorials
+  m_Title: Scene
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -390,7 +390,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Unity Essentials/Materials/My Materials
+    - Assets/_Unity Essentials/Prefabs/My Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -400,17 +400,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/_Unity Essentials/Fonts
+  - Assets/_Unity Essentials/Prefabs/My Prefabs
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\02MADDOX.GREENSPOON\Maddox Greenspoon\Repositories\Unity
     Essentials\Essentials
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06ca9a3b
-    m_LastClickedID: 1000000006
-    m_ExpandedIDs: 0000000008b7000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 68}
+    m_SelectedIDs: 1ebd0000
+    m_LastClickedID: 48414
+    m_ExpandedIDs: 0000000008b70000daba000056bd000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f0faffff
+      m_ExpandedIDs: 66eafffff0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1194,9 +1194,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.7042308, y: 4.564203, z: -6.98009}
+    m_Target: {x: -3.587834, y: 4.9501333, z: -2.2992833}
     speed: 2
-    m_Value: {x: -0.7042308, y: 4.564203, z: -6.98009}
+    m_Value: {x: -3.587834, y: 4.9501333, z: -2.2992833}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1242,13 +1242,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.20471503, y: 0.22491749, z: -0.047978397, w: 0.95159346}
+    m_Target: {x: 0.1875756, y: 0.4765378, z: -0.104375966, w: 0.85273707}
     speed: 2
-    m_Value: {x: 0.20468146, y: 0.2248806, z: -0.04797053, w: 0.9514374}
+    m_Value: {x: 0.1873881, y: 0.47773805, z: -0.10464006, w: 0.8518817}
   m_Size:
-    m_Target: 0.04190946
+    m_Target: 0.020752987
     speed: 2
-    m_Value: 0.04190946
+    m_Value: 0.70710695
   m_Ortho:
     m_Target: 0
     speed: 2
