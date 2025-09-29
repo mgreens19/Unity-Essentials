@@ -5,6 +5,8 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5.0f; // Set player's movement speed.
     public float rotationSpeed = 120.0f; // Set player's rotation speed.
+    public float jumpforce = 5.0f; // Set player jump height.
+    public KeyCode flipKey = KeyCode.R;
 
     private Rigidbody rb; // Reference to player's Rigidbody.
 
@@ -17,7 +19,22 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("Jump"))
+        {
+            rb.AddForce(Vector3.up * jumpforce, ForceMode.VelocityChange);
+        }
 
+        if (Input.GetKeyDown(flipKey))
+        {
+            // Zero out spin
+            rb.angularVelocity = Vector3.zero;
+
+            // Snap upright but keep forward direction
+            transform.rotation = Quaternion.Euler(0, transform.eulerAngles.y, 0);
+
+            // Lift a bit to avoid ground clipping
+            transform.position += Vector3.up * 1f;
+        }
     }
 
 
