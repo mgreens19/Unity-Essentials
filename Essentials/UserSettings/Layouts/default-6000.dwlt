@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 108
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -96,8 +96,8 @@ MonoBehaviour:
     y: 0
     width: 308
     height: 933
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 76}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -122,8 +122,8 @@ MonoBehaviour:
     y: 0
     width: 360
     height: 587
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/_Unity Essentials/Prefabs/VFX
+  - Assets/_Unity Essentials/Scripts
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\02MADDOX.GREENSPOON\Maddox Greenspoon\Repositories\Unity
     Essentials\Essentials
@@ -408,9 +408,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 07ca9a3b
-    m_LastClickedID: 1000000007
-    m_ExpandedIDs: 00000000f6b70000aabb00000ebc000000ca9a3bffffff7f
+    m_SelectedIDs: 98bc0000
+    m_LastClickedID: 48280
+    m_ExpandedIDs: 000000008cb800003ebc000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6b70000
+    m_ExpandedIDs: 000000008cb80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -586,10 +586,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 48}
+      scrollPos: {x: 0, y: 196}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3091ffff84f9ffffd0faffffd4faffffeafaffff
+      m_ExpandedIDs: f8f7ffff9ef8ffffeef9fffff0faffff0cb0000046b0000064b00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1194,9 +1194,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -3.974357, y: -2.3014832, z: 5.99187}
+    m_Target: {x: 0.06714957, y: 0.6738241, z: -1.4179788}
     speed: 2
-    m_Value: {x: -3.974357, y: -2.3014832, z: 5.99187}
+    m_Value: {x: 0.06714957, y: 0.6738241, z: -1.4179788}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1242,13 +1242,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.15615028, y: -0.03703166, z: 0.005853673, w: 0.9870469}
+    m_Target: {x: 0.22223714, y: -0.049700424, z: 0.011349601, w: 0.9736889}
     speed: 2
-    m_Value: {x: 0.15762673, y: -0.037021913, z: 0.0059090713, w: 0.9867869}
+    m_Value: {x: 0.22224745, y: -0.04823843, z: 0.0110159125, w: 0.973734}
   m_Size:
-    m_Target: 4.74027
+    m_Target: 2.6027827
     speed: 2
-    m_Value: 4.74027
+    m_Value: 2.6027827
   m_Ortho:
     m_Target: 0
     speed: 2
