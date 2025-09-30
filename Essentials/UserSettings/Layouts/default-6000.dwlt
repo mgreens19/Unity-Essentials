@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -390,7 +390,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Unity Essentials/Scripts
+    - Assets/_Unity Essentials
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -400,17 +400,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/_Unity Essentials/Sprites
+  - Assets/_Unity Essentials
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\02MADDOX.GREENSPOON\Maddox Greenspoon\Repositories\Unity
     Essentials\Essentials
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 07ca9a3b
-    m_LastClickedID: 1000000007
-    m_ExpandedIDs: 0000000002b2000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 100}
+    m_SelectedIDs: 92b50000
+    m_LastClickedID: 46482
+    m_ExpandedIDs: 0000000002b2000092b50000ecb5000002b8000008b8000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1194,9 +1194,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.5458999, y: -0.47324982, z: -2.9989257}
+    m_Target: {x: 1.6526554, y: -2.6241736, z: -0.06146618}
     speed: 2
-    m_Value: {x: 0.5458999, y: -0.47324982, z: -2.9989257}
+    m_Value: {x: 1.6526554, y: -2.6241736, z: -0.06146618}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1246,9 +1246,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.942552
+    m_Target: 7.4534817
     speed: 2
-    m_Value: 7.942552
+    m_Value: 7.4534817
   m_Ortho:
     m_Target: 1
     speed: 2
