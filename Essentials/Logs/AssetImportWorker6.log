@@ -1,0 +1,633 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.56f1 (9c7b5e468860) revision 10255198'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'en' Physical Memory: 32437 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-09T12:21:41Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.56f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/02MADDOX.GREENSPOON/Maddox Greenspoon/Repositories/Unity Essentials/Essentials
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+54701
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/02MADDOX.GREENSPOON/Maddox Greenspoon/Repositories/Unity Essentials/Essentials
+C:/Users/02MADDOX.GREENSPOON/Maddox Greenspoon/Repositories/Unity Essentials/Essentials
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13340]  Target information:
+
+Player connection [13340]  * "[IP] 10.202.144.9 [Port] 0 [Flags] 2 [Guid] 396913014 [EditorId] 396913014 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13340]  * "[IP] 192.168.247.1 [Port] 0 [Flags] 2 [Guid] 396913014 [EditorId] 396913014 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13340]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 396913014 [EditorId] 396913014 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13340]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 396913014 [EditorId] 396913014 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13340] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13340] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.56f1 (9c7b5e468860)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/02MADDOX.GREENSPOON/Maddox Greenspoon/Repositories/Unity Essentials/Essentials/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA T400 4GB (ID=0x1ff2)
+    Vendor:   NVIDIA
+    VRAM:     3943 MB
+    Driver:   32.0.15.7216
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006360 seconds.
+- Loaded All Assemblies, in  0.547 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.572 seconds
+Domain Reload Profiling: 1115ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (202ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (572ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (82ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.287 seconds
+Refreshing native plugins compatible for Editor in 21.83 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.68 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.526 seconds
+Domain Reload Profiling: 2803ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (882ms)
+		LoadAssemblies (606ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (416ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (258ms)
+			BuildScriptInfoCaches (110ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1527ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1231ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (685ms)
+			ProcessInitializeOnLoadMethodAttributes (288ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 53.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6411 unused Assets / (2.6 MB). Loaded Objects now: 7131.
+Memory consumption went from 151.7 MB to 149.1 MB.
+Total: 15.361300 ms (FindLiveObjects: 0.708700 ms CreateObjectMapping: 0.848100 ms MarkObjects: 11.233700 ms  DeleteObjects: 2.569300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2685.051388 seconds.
+  path: Assets/KajamansRoads/Free/Meshes/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00.asset
+  artifactKey: Guid(3b1e9a1c3c2d8434e9886f058cfe2987) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KajamansRoads/Free/Meshes/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00.asset using Guid(3b1e9a1c3c2d8434e9886f058cfe2987) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4277f5c4f849d2f7cb05cb5b64def6c4') in 0.6811064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Highway.prefab
+  artifactKey: Guid(ea578c43b60d6d4448daa4d3c1ac0e8b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Highway.prefab using Guid(ea578c43b60d6d4448daa4d3c1ac0e8b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6c61e9c271487cbca6108e40e7f4eb22') in 0.1115721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Shapes/Prism.prefab
+  artifactKey: Guid(bf49581021dec44ccae629c515c8712c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Shapes/Prism.prefab using Guid(bf49581021dec44ccae629c515c8712c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '23df8826a9bf687b35d840f0d8d624fb') in 0.0857395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Bedroom/Bed_Twin_BR004.prefab
+  artifactKey: Guid(d7c3fcf0ace46c4499f69e578053aea4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Bedroom/Bed_Twin_BR004.prefab using Guid(d7c3fcf0ace46c4499f69e578053aea4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fa067faf56b58800983e169191755eba') in 0.022482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Bedroom/Bed_Twin_BR003.prefab
+  artifactKey: Guid(dfd00ca081029ba4db3c4e1b8b424e5a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Bedroom/Bed_Twin_BR003.prefab using Guid(dfd00ca081029ba4db3c4e1b8b424e5a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fedf55271a9d3d5b6b6f7040c123b04e') in 0.0200413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Unity Essentials/Prefabs/VFX/VFX_2D_Burst.prefab
+  artifactKey: Guid(6d15eb92a997141259e4d43b70fa3ea9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/VFX/VFX_2D_Burst.prefab using Guid(6d15eb92a997141259e4d43b70fa3ea9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '05bb42cb497a6c83ef437be652520357') in 0.0298323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Walls/WallCornerInner.prefab
+  artifactKey: Guid(2ee7c4a3c08d9ae4ea14ecf15bf0aea3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Walls/WallCornerInner.prefab using Guid(2ee7c4a3c08d9ae4ea14ecf15bf0aea3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '73a633e9acd48a790d2b8cea101e2793') in 0.067167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 4.prefab
+  artifactKey: Guid(3981927452c32484d9640b2bf295fc6c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 4.prefab using Guid(3981927452c32484d9640b2bf295fc6c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5aaed730d9a12de7d13d4b9c35f02df5') in 0.0777095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Unity Essentials/Source Files/VFX/VFX_Star_Burst.prefab
+  artifactKey: Guid(d215f5256273c476b944e5e8108c3fb5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Source Files/VFX/VFX_Star_Burst.prefab using Guid(d215f5256273c476b944e5e8108c3fb5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '199ce802d9b63adb5094e57781123f91') in 0.0383013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Characters/Mouse.prefab
+  artifactKey: Guid(dddc3ae9a1ed446b6bf9d7ee0a2433a2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Characters/Mouse.prefab using Guid(dddc3ae9a1ed446b6bf9d7ee0a2433a2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7f9f9dbeeb9dccb92131ea22abfdc805') in 0.0302431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Collectibles/Collectible_GemDiamond.prefab
+  artifactKey: Guid(babe51b24254c461abf531b580e09b0e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Collectibles/Collectible_GemDiamond.prefab using Guid(babe51b24254c461abf531b580e09b0e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '458f809fdcdb1939f6c72477450f6675') in 0.0197218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af69c5e7a81bca0efff56ad9f3f62f88') in 0.1225753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.6 - Enter Play mode and enter an incorrect code.asset
+  artifactKey: Guid(7dc106ac99f5d4f64bfc5765ecaf01b2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.6 - Enter Play mode and enter an incorrect code.asset using Guid(7dc106ac99f5d4f64bfc5765ecaf01b2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '62a450ba2ed59a7deae7d072e6edc863') in 0.0576815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.1 - Overview.asset
+  artifactKey: Guid(64c63abf9777b424f89116f19e711e71) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.1 - Overview.asset using Guid(64c63abf9777b424f89116f19e711e71) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '22f14f017795f2bdfe5bd7ed8779a7ae') in 0.0558514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.10.asset
+  artifactKey: Guid(69e2068aa62c378499976a0d3c7d6b0b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.10.asset using Guid(69e2068aa62c378499976a0d3c7d6b0b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd780b759d303bb8b2389a094fc958a5d') in 0.031911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.4 - Use Flythrough mode in Scene view.asset
+  artifactKey: Guid(34eea3d6a527c0c48a7ff937ff5d988d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.4 - Use Flythrough mode in Scene view.asset using Guid(34eea3d6a527c0c48a7ff937ff5d988d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e2bc70c9375db58e2fa086d8a7505ad1') in 0.0208538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Unity Essentials/Source Files/Lighting/6_Bonus_Custom_Scene/LightingData.asset
+  artifactKey: Guid(e0eb2489c72ef4210a78ba72416bf7c4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Source Files/Lighting/6_Bonus_Custom_Scene/LightingData.asset using Guid(e0eb2489c72ef4210a78ba72416bf7c4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fa65c7930076838fed7fff356327eb32') in 0.0164911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.9.asset
+  artifactKey: Guid(582cf790fd8fb4647beabbe1706487ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.2/Step_1.2.9.asset using Guid(582cf790fd8fb4647beabbe1706487ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '95b273d4f9b76e5817493ebd2d100cfb') in 0.017044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.3/Step_1.3.4 - Fly through the rings course.asset
+  artifactKey: Guid(f3f0a182e40241a4b85ced72c7abc131) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.3/Step_1.3.4 - Fly through the rings course.asset using Guid(f3f0a182e40241a4b85ced72c7abc131) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f69909cede4cbf305cc49b4c71685681') in 0.0203441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.4/Step_1.4.7 - Move the next piece on a plane in isometric view.asset
+  artifactKey: Guid(1c3ac30c3c17c9248bbace151b025d7b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.4/Step_1.4.7 - Move the next piece on a plane in isometric view.asset using Guid(1c3ac30c3c17c9248bbace151b025d7b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a05faa190192919c7304c3390a56e271') in 0.0402179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.3/Step_1.3.5 - Hide the rings.asset
+  artifactKey: Guid(cf71960d476e31a41a182af2a28ec96b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.3/Step_1.3.5 - Hide the rings.asset using Guid(cf71960d476e31a41a182af2a28ec96b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '07032a47a7c89c92cee84c6812948f73') in 0.0409085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.4/Step_1.4.2 - Get a top view of the mural.asset
+  artifactKey: Guid(66008b7d3291c4dd8b1453f5630e17cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.4/Step_1.4.2 - Get a top view of the mural.asset using Guid(66008b7d3291c4dd8b1453f5630e17cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd3ad47192be7ef82aa09bcd0da557e18') in 0.027802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_02_3D/2.1/Tut_2.1.asset
+  artifactKey: Guid(3f44d25fa64184540bb2a5cfcc1ac092) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_02_3D/2.1/Tut_2.1.asset using Guid(3f44d25fa64184540bb2a5cfcc1ac092) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0b9ede8fe1b92414afcb4a9ac404c175') in 1.3024735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_02_3D/2.2/Step_2.2.4.asset
+  artifactKey: Guid(c5c51c3585f53403b8397aa8dcd409b9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_02_3D/2.2/Step_2.2.4.asset using Guid(c5c51c3585f53403b8397aa8dcd409b9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd4c4ea1809fab046ecae03ed4a412681') in 0.0198642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.6/Tutorial 1.6 - Complete the quiz checkpoint.asset
+  artifactKey: Guid(0e187a2ad62335045a159e10db9267a1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.6/Tutorial 1.6 - Complete the quiz checkpoint.asset using Guid(0e187a2ad62335045a159e10db9267a1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e185ef6a0c46d7856e93d2e707f473b4') in 1.1329847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_04_Prog/4.3/Step_4.3.6.asset
+  artifactKey: Guid(697fd78112856486e916d99f1843a9b1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_04_Prog/4.3/Step_4.3.6.asset using Guid(697fd78112856486e916d99f1843a9b1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '672e42080dbb510bff02045f716d1515') in 0.0250091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_04_Prog/4.2/Step_4.2.3.asset
+  artifactKey: Guid(fc839b4964e764983b787177dee8a891) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_04_Prog/4.2/Step_4.2.3.asset using Guid(fc839b4964e764983b787177dee8a891) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'afd652a0fa23ffce1835f77c1a9373af') in 0.0208433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_04_Prog/4.1/Step_4.1.6.asset
+  artifactKey: Guid(f3bf0ba0e29534a069a57f0bb8ff96e3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_04_Prog/4.1/Step_4.1.6.asset using Guid(f3bf0ba0e29534a069a57f0bb8ff96e3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4326877beea5a9e72f5092888c6bdb5f') in 0.0222966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_04_Prog/4.3/Step_4.3.4.asset
+  artifactKey: Guid(9f56069a893d641b394f4b2d44bf8aab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_04_Prog/4.3/Step_4.3.4.asset using Guid(9f56069a893d641b394f4b2d44bf8aab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4df60db81db27729852a149cccd72b51') in 0.0201709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/Balanced_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(223a2982031525f4d966baa721af86a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Balanced_PipelineAsset_ForwardRenderer.asset using Guid(223a2982031525f4d966baa721af86a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '122dfc3b10023a0c4bd9da7ef0d97bb6') in 0.0627672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_05_2D/5.2/Step_5.2.10.asset
+  artifactKey: Guid(84e03f5561c714298abd90c712827832) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_05_2D/5.2/Step_5.2.10.asset using Guid(84e03f5561c714298abd90c712827832) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '18229ebfc18118cf604bf4cde050f4a3') in 0.0181505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_04_Prog/4.5/Step_4.5.2.asset
+  artifactKey: Guid(fc11ff324fe7e48dc89b2a91f6549754) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_04_Prog/4.5/Step_4.5.2.asset using Guid(fc11ff324fe7e48dc89b2a91f6549754) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd69278d410df4982e58a4e626982f66e') in 0.0285379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_04_Prog/4.4/Step_4.4.2.asset
+  artifactKey: Guid(8ee90ab646bab8f428000cb7d69b8d12) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_04_Prog/4.4/Step_4.4.2.asset using Guid(8ee90ab646bab8f428000cb7d69b8d12) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '108e1d99f2e902dedbb201455eddc7cd') in 0.0207788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_04_Prog/4.4/Step_4.4.4.asset
+  artifactKey: Guid(105a73c2b6ded1c4b8437f2ce2a4f4cb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_04_Prog/4.4/Step_4.4.4.asset using Guid(105a73c2b6ded1c4b8437f2ce2a4f4cb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '085ebd2533b0447de973133bbba919ca') in 0.0193718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_05_2D/5.1/Step_5.1.6.asset
+  artifactKey: Guid(259618356b1d745a7a878531ce33f228) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_05_2D/5.1/Step_5.1.6.asset using Guid(259618356b1d745a7a878531ce33f228) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4d4800dc8a88de91e9f440c4966a9833') in 0.0197464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_05_2D/5.1/Step_5.1.5.asset
+  artifactKey: Guid(2e892cd2237794c9280cffa43ff3fc19) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_05_2D/5.1/Step_5.1.5.asset using Guid(2e892cd2237794c9280cffa43ff3fc19) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0bf663825276c35e83846d4cf44ddb6b') in 0.0210257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Kitchen/ShotGlass_KN001.prefab
+  artifactKey: Guid(0967c904231adf440ba0ce3d148e8cb2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Kitchen/ShotGlass_KN001.prefab using Guid(0967c904231adf440ba0ce3d148e8cb2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7f4721049b6de548b0cbb33429757ed2') in 0.0226981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_06_Pub/6.1/Step_6.1.5.asset
+  artifactKey: Guid(479ded9b376dd48e89512b4f65736c64) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_06_Pub/6.1/Step_6.1.5.asset using Guid(479ded9b376dd48e89512b4f65736c64) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fc4e87f5ec0ead9fe2b2517382394fc7') in 0.0205401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_05_2D/5.2/Step_5.2.3.asset
+  artifactKey: Guid(d7a000464bcca492ebfc79a4a05fe437) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_05_2D/5.2/Step_5.2.3.asset using Guid(d7a000464bcca492ebfc79a4a05fe437) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '41b2899176195b7b367a196556ad9ede') in 0.0207783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_05_2D/5.2/Step_5.2.6.asset
+  artifactKey: Guid(98fe2f68829da4601b0ce00b6ce005dd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_05_2D/5.2/Step_5.2.6.asset using Guid(98fe2f68829da4601b0ce00b6ce005dd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4c3f4540e8a92b5a9a6df8adf1bc5402') in 0.0210393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_06_Pub/6.2/6.2.1.asset
+  artifactKey: Guid(24e05e1bc46d36c40bded17aed8bea6c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_06_Pub/6.2/6.2.1.asset using Guid(24e05e1bc46d36c40bded17aed8bea6c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b10e477c4352a7cb4f9accafcc30b1f3') in 0.022984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_05_2D/5.3/Step_5.3.5.asset
+  artifactKey: Guid(b9aff99943a70c04e8721b58162dc55f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_05_2D/5.3/Step_5.3.5.asset using Guid(b9aff99943a70c04e8721b58162dc55f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '59217a8070b718daf1319b666a067a2f') in 0.0230392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_06_Pub/6.1/Step_6.1.1.asset
+  artifactKey: Guid(bf9a5ebe4470cde42958a92ccf9c88b8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_06_Pub/6.1/Step_6.1.1.asset using Guid(bf9a5ebe4470cde42958a92ccf9c88b8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7970db164fc5d78818b16d03cffaeb71') in 0.0184398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_06_Pub/6.1/Tut 6.1.asset
+  artifactKey: Guid(b7cb0baf577204dd2893ad1f890e0b7c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_06_Pub/6.1/Tut 6.1.asset using Guid(b7cb0baf577204dd2893ad1f890e0b7c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c7a0ecc384f99cdca7b6eede0180bf88') in 0.850006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.1/Step_1.1.2.asset
+  artifactKey: Guid(f7c8a98f8c3ee5945b802a41e374e0b0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.1/Step_1.1.2.asset using Guid(f7c8a98f8c3ee5945b802a41e374e0b0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd2b2a7edb452cf482195dc0cf5e9b005') in 0.0194143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Outdoor/Fence_DogEar_6ft_BY001.prefab
+  artifactKey: Guid(4263aa52d6bca844ebaaa71504b52023) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Outdoor/Fence_DogEar_6ft_BY001.prefab using Guid(4263aa52d6bca844ebaaa71504b52023) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ffe3ab2c917ed63d3aa89880c029b08f') in 0.0210398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Outdoor/Tube Slide/TubeSlide_Bottom Variant.prefab
+  artifactKey: Guid(efb23acb9ce44407498e8aec0a03b17a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Outdoor/Tube Slide/TubeSlide_Bottom Variant.prefab using Guid(efb23acb9ce44407498e8aec0a03b17a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '44955d7d9de75420ef1a414d846956fa') in 0.019842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Collectibles/Collectible_Coin.prefab
+  artifactKey: Guid(37c65fdc88e8e402eb7bf60bb0b9390a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Collectibles/Collectible_Coin.prefab using Guid(37c65fdc88e8e402eb7bf60bb0b9390a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '29b3e0ba6e0a4340165908c36a2c40af') in 0.0205788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Collectibles/Collectible_Apple.prefab
+  artifactKey: Guid(48a1621d709d547aba6166cd22b8d1a9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Collectibles/Collectible_Apple.prefab using Guid(48a1621d709d547aba6166cd22b8d1a9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'bb9a7dab41d3b41ee25f764f9326e0b6') in 0.0208062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Unity Essentials/Source Files/Lighting/3_Kitchen_Audio_Scene/LightingData.asset
+  artifactKey: Guid(28ba58853fe804f21a3d5003a14e4ecc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Source Files/Lighting/3_Kitchen_Audio_Scene/LightingData.asset using Guid(28ba58853fe804f21a3d5003a14e4ecc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ea80434c6edabd4ef7ec281d9def0f0c') in 0.0178832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9f7e020ff2b321aacad93df684acb32c') in 0.0739728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Unity Essentials/Tutorials/M_01_Editor/1.1/Step_1.1.4.asset
+  artifactKey: Guid(bc2dc91c4794c754b8bcbd3c25684608) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Tutorials/M_01_Editor/1.1/Step_1.1.4.asset using Guid(bc2dc91c4794c754b8bcbd3c25684608) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0d9ada30fc682c8466356cfbd7069955') in 0.0204594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Unity Essentials/Prefabs/Kitchen/PaperTowel_Dispenser_14in_KN001.prefab
+  artifactKey: Guid(e7411550b66a4b243b8b09ab8c74738d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/_Unity Essentials/Prefabs/Kitchen/PaperTowel_Dispenser_14in_KN001.prefab using Guid(e7411550b66a4b243b8b09ab8c74738d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'aa3546d0429902df70d56ba69dd758d3') in 0.0221644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
