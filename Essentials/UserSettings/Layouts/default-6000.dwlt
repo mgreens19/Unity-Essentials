@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 5822
+  controlID: 3254
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 5719
+  controlID: 3255
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 5720
+  controlID: 3256
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -450,9 +450,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 50e40000
       m_LastClickedID: 0
-      m_ExpandedIDs: 60d1ffff8edaffff90dcffff82ebffff74f1fffff0faffff2ac5000042c50000e8ce00008acf0000
+      m_ExpandedIDs: 90b5ffff80f6ffff9af6ffff0ef7ffff12f7ffffeefafffff0faffff9eb00000b4b00000fab00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1057,9 +1057,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.97171146, y: -9.2846775, z: 7.419427}
+    m_Target: {x: 5.037109, y: -34.35311, z: 20.050238}
     speed: 2
-    m_Value: {x: -0.97171146, y: -9.2846775, z: 7.419427}
+    m_Value: {x: 5.037109, y: -34.35311, z: 20.050238}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1105,13 +1105,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.36338145, y: -0.017578581, z: 0.006858432, w: -0.9314763}
+    m_Target: {x: -0.46872085, y: -0.12714253, z: 0.06838596, w: -0.8714988}
     speed: 2
-    m_Value: {x: -0.36338148, y: -0.017578583, z: 0.006858432, w: -0.93147635}
+    m_Value: {x: -0.46872088, y: -0.12714253, z: 0.068385966, w: -0.8714988}
   m_Size:
-    m_Target: 23.240156
+    m_Target: 30.555357
     speed: 2
-    m_Value: 22.239384
+    m_Value: 31.995138
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1193,7 +1193,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Unity Essentials/Prefabs/My Prefabs
+    - Assets/_Unity Essentials/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1203,17 +1203,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/_Unity Essentials/Prefabs/My Prefabs
+  - Assets/_Unity Essentials/Scenes
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\02MADDOX.GREENSPOON\Maddox Greenspoon\Repositories\Unity
     Essentials\Essentials
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 84}
-    m_SelectedIDs: dcbf0000
-    m_LastClickedID: 49116
-    m_ExpandedIDs: 00000000c0b90000d2bb000036bc000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 228}
+    m_SelectedIDs: cac00000
+    m_LastClickedID: 49354
+    m_ExpandedIDs: 0000000068be000046c00000a2c0000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1242,7 +1242,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c0b9000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000068be000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1270,7 +1270,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000dcb90000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

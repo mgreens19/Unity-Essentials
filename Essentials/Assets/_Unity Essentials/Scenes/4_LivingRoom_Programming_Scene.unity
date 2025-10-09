@@ -537,6 +537,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectible_Apple  (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -643,6 +648,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectible_Apple  (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
@@ -811,6 +821,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectible_Apple  (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
@@ -1222,6 +1237,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectible_Apple  (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1383,6 +1403,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectible_Apple  (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1489,6 +1514,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectible_Apple  (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
@@ -1877,6 +1907,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectible_Apple  (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2071,39 +2106,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c0a21d52daa06243ad0be6be47959b1, type: 3}
---- !u!1 &1017225935 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7428943648625255922, guid: cd30d339fb2c94c4cbc61919d6caf170,
-    type: 3}
-  m_PrefabInstance: {fileID: 2050377573}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1017225937
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017225935}
-  serializedVersion: 4
-  m_Mass: 200
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &1110280545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2426,6 +2428,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectible_Apple  (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2532,6 +2539,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectible_Apple  (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
@@ -2941,6 +2953,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectible_Apple  (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3047,6 +3064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectible_Apple  (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
@@ -3181,6 +3203,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectible_Apple  (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
@@ -3658,6 +3685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectible_Apple  (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4003,6 +4035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectible_Apple  (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
@@ -4401,6 +4438,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectible_Apple  (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4567,11 +4609,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7428943648625255922, guid: cd30d339fb2c94c4cbc61919d6caf170,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1017225937}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd30d339fb2c94c4cbc61919d6caf170, type: 3}
 --- !u!1001 &2093376966
 PrefabInstance:
@@ -4585,6 +4623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectible_Apple  (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235097118475628076, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
@@ -5161,6 +5204,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ConfettiEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895368588937784323, guid: 7db7ed7ab6e0c6a4fb2b0f02e91df0ab,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895368588937784323, guid: 7db7ed7ab6e0c6a4fb2b0f02e91df0ab,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.b
+      value: 0.08776283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895368588937784323, guid: 7db7ed7ab6e0c6a4fb2b0f02e91df0ab,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895368588937784323, guid: 7db7ed7ab6e0c6a4fb2b0f02e91df0ab,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895368588937784323, guid: 7db7ed7ab6e0c6a4fb2b0f02e91df0ab,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].cycleCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895368588937784323, guid: 7db7ed7ab6e0c6a4fb2b0f02e91df0ab,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 3257370849374833192, guid: 7db7ed7ab6e0c6a4fb2b0f02e91df0ab,
         type: 3}
