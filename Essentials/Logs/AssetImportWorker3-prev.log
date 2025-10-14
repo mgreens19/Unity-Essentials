@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.56f1 (9c7b5e468860) revision 10255198'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'en' Physical Memory: 32437 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-09T12:18:48Z
+Date: 2025-10-13T12:32:58Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.56f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/02MADDOX.GREENSPOON/Maddox Greenspoon/Repositories/Unity Essentials/Ess
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-54701
+60513
 -job-worker-count
 5
 -background-job-worker-count
@@ -62,18 +62,18 @@ C:/Users/02MADDOX.GREENSPOON/Maddox Greenspoon/Repositories/Unity Essentials/Ess
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14140]  Target information:
+Player connection [19648]  Target information:
 
-Player connection [14140]  * "[IP] 10.202.144.9 [Port] 0 [Flags] 2 [Guid] 2006937074 [EditorId] 2006937074 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19648]  * "[IP] 10.202.144.9 [Port] 0 [Flags] 2 [Guid] 2016773973 [EditorId] 2016773973 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14140]  * "[IP] 192.168.247.1 [Port] 0 [Flags] 2 [Guid] 2006937074 [EditorId] 2006937074 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19648]  * "[IP] 192.168.247.1 [Port] 0 [Flags] 2 [Guid] 2016773973 [EditorId] 2016773973 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14140]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 2006937074 [EditorId] 2006937074 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19648]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 2016773973 [EditorId] 2016773973 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14140]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2006937074 [EditorId] 2006937074 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19648]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2016773973 [EditorId] 2016773973 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14140] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14140] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19648] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19648] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 134.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.56f1 (9c7b5e468860)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Resources/UnitySubsystems
@@ -101,47 +101,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.553120 seconds.
-- Loaded All Assemblies, in  8.103 seconds
+Registered in 0.003349 seconds.
+- Loaded All Assemblies, in  0.381 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.318 seconds
-Domain Reload Profiling: 8420ms
-	BeginReloadAssembly (5987ms)
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 729ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (430ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (593ms)
-	LoadAllAssembliesAndSetupDomain (1082ms)
-		LoadAssemblies (6004ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (127ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1060ms)
-			TypeCache.Refresh (1059ms)
-				TypeCache.ScanAssembly (837ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (137ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (318ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (351ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (284ms)
+		SetupLoadedEditorAssemblies (304ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -151,8 +151,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in 10.845 seconds
-Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.751 seconds
+Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -160,258 +160,100 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.837 seconds
-Domain Reload Profiling: 11677ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.733 seconds
+Domain Reload Profiling: 1479ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (10653ms)
-		LoadAssemblies (10045ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (518ms)
+		LoadAssemblies (343ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (677ms)
-			TypeCache.Refresh (593ms)
-				TypeCache.ScanAssembly (525ms)
-			BuildScriptInfoCaches (72ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (71ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (838ms)
+	FinalizeReload (733ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (634ms)
+		SetupLoadedEditorAssemblies (554ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (359ms)
-			ProcessInitializeOnLoadMethodAttributes (160ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.42 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6411 unused Assets / (6.3 MB). Loaded Objects now: 7130.
-Memory consumption went from 153.4 MB to 147.1 MB.
-Total: 13.553500 ms (FindLiveObjects: 0.705200 ms CreateObjectMapping: 0.779900 ms MarkObjects: 8.374600 ms  DeleteObjects: 3.692300 ms)
+Unloading 6411 unused Assets / (4.8 MB). Loaded Objects now: 7132.
+Memory consumption went from 153.7 MB to 148.9 MB.
+Total: 13.452600 ms (FindLiveObjects: 0.534900 ms CreateObjectMapping: 0.521700 ms MarkObjects: 9.926500 ms  DeleteObjects: 2.467900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 2581.829280 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Car 2.dae
-  artifactKey: Guid(77034832b22fef34387efcaeb7127eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Car 2.dae using Guid(77034832b22fef34387efcaeb7127eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '907420f354c1e8d63a628bb5324d42f4') in 1.1322941 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.398 seconds
+Refreshing native plugins compatible for Editor in 5.67 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.887 seconds
+Domain Reload Profiling: 4283ms
+	BeginReloadAssembly (406ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (125ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (2826ms)
+		LoadAssemblies (2389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (709ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (685ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (887ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (731ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (185ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 6.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6409 unused Assets / (5.9 MB). Loaded Objects now: 7135.
+Memory consumption went from 154.3 MB to 148.4 MB.
+Total: 13.193700 ms (FindLiveObjects: 0.672200 ms CreateObjectMapping: 0.540400 ms MarkObjects: 8.558900 ms  DeleteObjects: 3.420700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 2.dae
-  artifactKey: Guid(df7aef7b3f5b34f438e1f16d9f25c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 2.dae using Guid(df7aef7b3f5b34f438e1f16d9f25c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf62ff10ccc4dd82f7ce2636b2e949bf') in 0.019567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 1.dae
-  artifactKey: Guid(de9f00a88308eb741b7da04ed6699c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 1.dae using Guid(de9f00a88308eb741b7da04ed6699c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecd6f2ec266c8c8e867879eee488cd89') in 0.0191893 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway S-Curve.dae
-  artifactKey: Guid(901bb15896c0ed444a89af207f0d0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway S-Curve.dae using Guid(901bb15896c0ed444a89af207f0d0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c51e9efc8ccdd56851f1f57eefeb4ef') in 0.0182151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 2.dae
-  artifactKey: Guid(f05a64e3c823b5247ad0f4f8f37f52f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 2.dae using Guid(f05a64e3c823b5247ad0f4f8f37f52f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9a1bea14fa8159521929f58221cc06d') in 0.0186655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae
-  artifactKey: Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae using Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '979c82d56931188bb259630a7c0a18e9') in 0.0184353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Join Road.dae
-  artifactKey: Guid(1869066258e66524dabd0031005b03ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Join Road.dae using Guid(1869066258e66524dabd0031005b03ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a925df964578b2635c0ba7899500a6a') in 0.0188614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Freeway.dae
-  artifactKey: Guid(72eb0d530cf26e74caefec9fd65ad0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Freeway.dae using Guid(72eb0d530cf26e74caefec9fd65ad0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f40ed5936ad7198487b7edf16e9a9ee0') in 0.0184765 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 2.dae
-  artifactKey: Guid(306a3142baf3c0f48acf183ab9a53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 2.dae using Guid(306a3142baf3c0f48acf183ab9a53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4adb05d8032cf27ad6cfeb52cff8c87') in 0.0180214 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Lift Highway.dae
-  artifactKey: Guid(ebec32a200e40f84ba441fb26dd604c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Lift Highway.dae using Guid(ebec32a200e40f84ba441fb26dd604c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abf4ab276da58a669c69d98b3388fa13') in 0.0192448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 1.dae
-  artifactKey: Guid(18532e9f65bee84488936fca5f9fe8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 1.dae using Guid(18532e9f65bee84488936fca5f9fe8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5d7b99ac0c12b020625978312825935') in 0.0195821 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Road.dae
-  artifactKey: Guid(55ffdfe2a9a2b114ab2e38301ab3c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Road.dae using Guid(55ffdfe2a9a2b114ab2e38301ab3c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53c8b14b1245038dbdd7ca85587abbcd') in 0.0197837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Road.dae
-  artifactKey: Guid(cfcf77940ff021942bc50517e56d54cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Road.dae using Guid(cfcf77940ff021942bc50517e56d54cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28aad65c9fa43abf5fa3b321d6e75292') in 0.0200693 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 1.dae
-  artifactKey: Guid(a17f37812c6482942b2b08f8a4b9d2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 1.dae using Guid(a17f37812c6482942b2b08f8a4b9d2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7fd1b9875313b83076005fb77969801') in 0.0197005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Cross Road.dae
-  artifactKey: Guid(8a74d4154e3078a498c1bf96dc3d1660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Cross Road.dae using Guid(8a74d4154e3078a498c1bf96dc3d1660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4335f7dc5f52ca73096e57691cb76fa') in 0.0189296 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 2.dae
-  artifactKey: Guid(333adb85cff2d42459cd00449998046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 2.dae using Guid(333adb85cff2d42459cd00449998046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '250fa9b31cb6530d736588586d72cff1') in 0.0181851 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Looping.dae
-  artifactKey: Guid(3489a6b45e153324991c8f803c6e0bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Looping.dae using Guid(3489a6b45e153324991c8f803c6e0bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '870b77ff7693dc6fa4acf6152f1c6c29') in 0.020933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Road Join SIngleLane.dae
-  artifactKey: Guid(b85b6366741d14e4a96828e1afad90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Road Join SIngleLane.dae using Guid(b85b6366741d14e4a96828e1afad90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64c4682b3e6f788e2ff690e191d3806f') in 0.022151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 2.dae
-  artifactKey: Guid(da1a0020a373025418e1119879ed8146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 2.dae using Guid(da1a0020a373025418e1119879ed8146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa980789c802158e6690a810e2987519') in 0.0210937 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Center 2.dae
-  artifactKey: Guid(76b865b0d72af07469dfd0128ca936bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Parkinglot Center 2.dae using Guid(76b865b0d72af07469dfd0128ca936bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '417720ffd091d5cc4d35f2e95b4a1c50') in 0.0216649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.348097 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane Cross SingleLane.dae
-  artifactKey: Guid(36d41065887b764468cd330f24e28531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane Cross SingleLane.dae using Guid(36d41065887b764468cd330f24e28531) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80243b714d37bf2152d4e878cc475213') in 0.0196547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane End.dae
-  artifactKey: Guid(4887d8bc9c96f564c944f169b9acb35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane End.dae using Guid(4887d8bc9c96f564c944f169b9acb35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dabed9592f718f124005bb90e6ac7ae1') in 0.0204832 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/Tunnel Entrance 2.dae
-  artifactKey: Guid(42e238ecb6fe5c34381c1899f40cdc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Tunnel Entrance 2.dae using Guid(42e238ecb6fe5c34381c1899f40cdc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbd9ef7667846da9cd9456532cbefc9e') in 0.0192632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane Join SingleLane.dae
-  artifactKey: Guid(d4b7f9095e4b9734cab4e187c97ba1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane Join SingleLane.dae using Guid(d4b7f9095e4b9734cab4e187c97ba1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c91ebd2a5609b48818f5488226f4264f') in 0.0186879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane Curve.dae
-  artifactKey: Guid(61ebcd8c80cab1a4e9864d570e883fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane Curve.dae using Guid(61ebcd8c80cab1a4e9864d570e883fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebdb56099abbd452a5a8fe8f3bca8c31') in 0.017613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane Straight 1.dae
-  artifactKey: Guid(69f4b809270776f4aaa4b23e75155df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRoadPack/Models/SingleLane Straight 1.dae using Guid(69f4b809270776f4aaa4b23e75155df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62cd08cdedf68132e64446d93dc66087') in 0.0180074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0
