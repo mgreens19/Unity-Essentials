@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &110325185862526689
+--- !u!1001 &490111376612410054
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -12,7 +12,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c4c2ee3e832cffd48bb9d156c2b21376, type: 2}
+      objectReference: {fileID: 2100000, guid: d2344366b80fe3d4f886ec412e0174fa, type: 2}
     - target: {fileID: 2792218741957914664, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       propertyPath: m_RootOrder
@@ -21,17 +21,17 @@ PrefabInstance:
     - target: {fileID: 2792218741957914664, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.40309
+      value: -32.667965
       objectReference: {fileID: 0}
     - target: {fileID: 2792218741957914664, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000047683716
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2792218741957914664, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.23271
+      value: 2.4224625
       objectReference: {fileID: 0}
     - target: {fileID: 2792218741957914664, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
@@ -71,7 +71,7 @@ PrefabInstance:
     - target: {fileID: 3311311803080157842, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       propertyPath: m_Name
-      value: Boss Car
+      value: Free Racing Car Blue Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -80,25 +80,25 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3311311803080157842, guid: 133308cdb8794744caaef026bde9e1f0,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 17421571935442055}
+      addedObject: {fileID: 9040984033129272081}
   m_SourcePrefab: {fileID: 100100000, guid: 133308cdb8794744caaef026bde9e1f0, type: 3}
---- !u!1 &3203133173424442483 stripped
+--- !u!1 &3114552748834220116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3311311803080157842, guid: 133308cdb8794744caaef026bde9e1f0,
     type: 3}
-  m_PrefabInstance: {fileID: 110325185862526689}
+  m_PrefabInstance: {fileID: 490111376612410054}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &17421571935442055
+--- !u!114 &9040984033129272081
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3203133173424442483}
+  m_GameObject: {fileID: 3114552748834220116}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ca9ee1d4b708bc4aa1bba1f96f9e02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   endPoint: {fileID: 0}
-  speed: 190
+  speed: 170
