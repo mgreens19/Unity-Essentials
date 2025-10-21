@@ -29,4 +29,13 @@ public class CarDrive : MonoBehaviour
         }
 
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+            if(collision.gameObject.CompareTag("Player"))
+        {
+            //Trigger Reaction
+            collision.gameObject.GetComponent<PlayerHitReaction>().OnHitByCar();
+        }
+    }
 }
