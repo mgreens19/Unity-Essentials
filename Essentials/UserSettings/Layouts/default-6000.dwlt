@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 149
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 87
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 88
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -317,7 +317,7 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: Third
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -327,17 +327,17 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Unity Essentials/Scenes
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
-    m_OriginalText: 
+    m_OriginalText: Third
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Unity Essentials/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\02MADDOX.GREENSPOON\Maddox Greenspoon\Repositories\Unity
     Essentials\Essentials
@@ -345,9 +345,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c2c40000
-    m_LastClickedID: 50370
-    m_ExpandedIDs: 00000000aebe00002ebf000000ca9a3bffffff7f
+    m_SelectedIDs: b4be0000
+    m_LastClickedID: 48820
+    m_ExpandedIDs: 00000000b4be00003abf000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -376,7 +376,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aebe0000
+    m_ExpandedIDs: 00000000b4be0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -478,7 +478,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 427
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -523,10 +523,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 70}
-      m_SelectedIDs: a0f6feff
-      m_LastClickedID: -67936
-      m_ExpandedIDs: 1253ffff3264ffff3c64ffff3e64ffff529affffd0a4fffff0faffff24c5000034e10000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: f0faffff20b10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1131,9 +1131,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -33.227024, y: 23.395992, z: 59.46628}
+    m_Target: {x: -3.834488, y: 0.37203318, z: 12.568998}
     speed: 2
-    m_Value: {x: -33.227024, y: 23.395992, z: 59.46628}
+    m_Value: {x: -3.834488, y: 0.37203318, z: 12.568998}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1179,13 +1179,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.03624412, y: 0.95753825, z: -0.14961015, w: 0.24483055}
+    m_Target: {x: -0.037563525, y: -0.3324545, z: 0.015257752, w: -0.94252527}
     speed: 2
-    m_Value: {x: 0.036459047, y: 0.95692194, z: -0.14951687, w: 0.24620278}
+    m_Value: {x: -0.03757653, y: -0.33095372, z: 0.01519741, w: -0.9427761}
   m_Size:
-    m_Target: 0.000017064433
+    m_Target: 12.124355
     speed: 2
-    m_Value: 0.057646725
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -1,3 +1,4 @@
+using StarterAssets;
 using UnityEditor;
 using UnityEngine;
 
@@ -5,11 +6,16 @@ public class RagdollController : MonoBehaviour
 {
     private Rigidbody[] ragdollBodies;
     private Animator animator;
+    private MonoBehaviour ThirdPersonController;
+
 
     void Start()
     {
         animator = GetComponent<Animator>();
         ragdollBodies = GetComponentsInChildren<Rigidbody>();
+
+        // Try to find a controller automatically
+        ThirdPersonController = GetComponent<MonoBehaviour>();
 
         SetRagdoll(false); // start normal
     }
@@ -24,6 +30,9 @@ public class RagdollController : MonoBehaviour
 
         if (animator != null)
             animator.enabled = !isRagdoll;
+
+        if (ThirdPersonController != null)
+            ThirdPersonController.enabled = !isRagdoll;
     }
 }
 
