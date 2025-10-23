@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4184215698203144276}
   - component: {fileID: 4550478890625022197}
   - component: {fileID: 8134574795799933904}
+  - component: {fileID: 6260455278297980902}
   m_Layer: 0
   m_Name: Hatchback Scripted
   m_TagString: Untagged
@@ -156,6 +157,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6260455278297980902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579989071229858341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc69288b4f577944baed13100766194d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1890389635657298401
 GameObject:
   m_ObjectHideFlags: 0
