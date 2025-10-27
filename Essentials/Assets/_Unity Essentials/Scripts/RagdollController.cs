@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class RagdollController : MonoBehaviour
 {
+    public Transform hipsBone; // Drag your hips/spine bone here
+    public Transform cameraRoot; // Drag PlayerCameraRoot here
+
     private Rigidbody[] ragdollBodies;
     private Animator animator;
-    private MonoBehaviour ThirdPersonController;
+    public MonoBehaviour ThirdPersonController;
+
 
 
     void Start()
@@ -27,10 +31,10 @@ public class RagdollController : MonoBehaviour
         foreach (Rigidbody rb in ragdollBodies)
         {
             // Skip the main object (the root) — we don’t want to affect that one
-            if (rb.gameObject != gameObject) 
-            // If isRagdoll = true → make rigidbodies active (not kinematic)
-            // If isRagdoll = false → freeze them (kinematic)
-            // "isKinematic" means the Rigidbody ignores physics.
+            if (rb.gameObject != gameObject)
+                // If isRagdoll = true → make rigidbodies active (not kinematic)
+                // If isRagdoll = false → freeze them (kinematic)
+                // "isKinematic" means the Rigidbody ignores physics.
                 rb.isKinematic = !isRagdoll;
         }
 
@@ -44,30 +48,45 @@ public class RagdollController : MonoBehaviour
         // We disable it when ragdolling so the player can’t keep walking or jumping.
         if (ThirdPersonController != null)
             ThirdPersonController.enabled = !isRagdoll;
+
+
+        // 🔹 Switch the camera follow target when ragdolling
+        if (cameraRoot != null && hipsBone != null)
+        {
+            if (isRagdoll)
+                cameraRoot.SetParent(hipsBone); // follow hips while ragdolled
+            else
+                cameraRoot.SetParent(transform); // reattach to player root when normal
+        }
+
+        // Update camera mode when ragdolling
+        CameraRagdollFollow camFollow = cameraRoot.GetComponentInParent<CameraRagdollFollow>();
+        if (camFollow != null)
+            camFollow.isRagdoll = isRagdoll;
     }
-}
 
 
 #if UNITY_EDITOR
 #endif
 
 #if UNITY_EDITOR
-[CustomEditor(typeof(RagdollController))]
-public class RagdollControllerEditor : Editor
-{
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(RagdollController))]
+    public class RagdollControllerEditor : Editor
     {
-        DrawDefaultInspector();
-        RagdollController controller = (RagdollController)target;
+        public override void OnInspectorGUI()
+        {
+            DrawDefaultInspector();
+            RagdollController controller = (RagdollController)target;
 
-        GUILayout.Space(10);
-        if (GUILayout.Button("Activate Ragdoll"))
-        {
-            controller.SetRagdoll(true);
-        }
-        if (GUILayout.Button("Deactivate Ragdoll"))
-        {
-            controller.SetRagdoll(false);
+            GUILayout.Space(10);
+            if (GUILayout.Button("Activate Ragdoll"))
+            {
+                controller.SetRagdoll(true);
+            }
+            if (GUILayout.Button("Deactivate Ragdoll"))
+            {
+                controller.SetRagdoll(false);
+            }
         }
     }
 }

@@ -358,6 +358,7 @@ GameObject:
   - component: {fileID: 102080630019945621}
   - component: {fileID: 3978416635495594067}
   - component: {fileID: 2542558547470999207}
+  - component: {fileID: 1241726086050935890}
   m_Layer: 0
   m_Name: Muscle Car Scripted
   m_TagString: Untagged
@@ -500,3 +501,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endPoint: {fileID: 0}
   speed: 110
+--- !u!114 &1241726086050935890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6335576428003883378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc69288b4f577944baed13100766194d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
