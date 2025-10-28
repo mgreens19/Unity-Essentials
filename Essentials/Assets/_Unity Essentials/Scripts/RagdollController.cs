@@ -6,6 +6,7 @@ public class RagdollController : MonoBehaviour
 {
     public Transform hipsBone; // Drag your hips/spine bone here
     public Transform cameraRoot; // Drag PlayerCameraRoot here
+    public GameObject playerFollowCamera;
 
     private Rigidbody[] ragdollBodies;
     private Animator animator;
@@ -59,12 +60,32 @@ public class RagdollController : MonoBehaviour
                 cameraRoot.SetParent(transform); // reattach to player root when normal
         }
 
-        // Update camera mode when ragdolling
-        CameraRagdollFollow camFollow = cameraRoot.GetComponentInParent<CameraRagdollFollow>();
-        if (camFollow != null)
-            camFollow.isRagdoll = isRagdoll;
-    }
+        // Turn off normal follow when ragdolled and enable orbit camera
+        CameraRagdollFollow follow = cameraRoot.GetComponentInParent<CameraRagdollFollow>();
+        RagdollCameraOrbit orbit = Camera.main.GetComponent<RagdollCameraOrbit>();
 
+        if (isRagdoll)
+        {
+            if (follow != null) follow.enabled = false;
+            if (orbit != null) orbit.Activate(hipsBone);
+        }
+        else
+        {
+            if (follow != null) follow.enabled = true;
+            if (orbit != null) orbit.Deactivate();
+        }
+
+        if (isRagdoll)
+        {
+            if (playerFollowCamera != null) playerFollowCamera.SetActive(false);
+            if (orbit != null) orbit.Activate(hipsBone);
+        }
+        else
+        {
+            if (playerFollowCamera != null) playerFollowCamera.SetActive(true);
+            if (orbit != null) orbit.Deactivate();
+        }
+    }
 
 #if UNITY_EDITOR
 #endif
