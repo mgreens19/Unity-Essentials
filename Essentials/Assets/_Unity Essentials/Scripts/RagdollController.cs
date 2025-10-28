@@ -61,17 +61,17 @@ public class RagdollController : MonoBehaviour
         }
 
         // Turn off normal follow when ragdolled and enable orbit camera
-        CameraRagdollFollow follow = cameraRoot.GetComponentInParent<CameraRagdollFollow>();
+       
         RagdollCameraOrbit orbit = Camera.main.GetComponent<RagdollCameraOrbit>();
 
         if (isRagdoll)
         {
-            if (follow != null) follow.enabled = false;
+            
             if (orbit != null) orbit.Activate(hipsBone);
         }
         else
         {
-            if (follow != null) follow.enabled = true;
+           
             if (orbit != null) orbit.Deactivate();
         }
 

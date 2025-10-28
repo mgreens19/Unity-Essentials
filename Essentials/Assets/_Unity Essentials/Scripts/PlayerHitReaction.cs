@@ -3,7 +3,7 @@ using System.Collections;
 public class PlayerHitReaction : MonoBehaviour
 {
     public Rigidbody rb; // assign in Inspector
-    public float hitForce = 50f;
+    public float hitForce = 400f;
 
     public void OnHitByCar()
     {
