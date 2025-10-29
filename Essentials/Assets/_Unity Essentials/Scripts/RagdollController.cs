@@ -25,6 +25,7 @@ public class RagdollController : MonoBehaviour
         SetRagdoll(false); // start normal
     }
 
+
     public void SetRagdoll(bool isRagdoll)
     {
         // Loop through every Rigidbody in the character's body.
@@ -60,18 +61,20 @@ public class RagdollController : MonoBehaviour
                 cameraRoot.SetParent(transform); // reattach to player root when normal
         }
 
+
+
         // Turn off normal follow when ragdolled and enable orbit camera
-       
+
         RagdollCameraOrbit orbit = Camera.main.GetComponent<RagdollCameraOrbit>();
 
         if (isRagdoll)
         {
-            
+
             if (orbit != null) orbit.Activate(hipsBone);
         }
         else
         {
-           
+
             if (orbit != null) orbit.Deactivate();
         }
 
@@ -85,6 +88,35 @@ public class RagdollController : MonoBehaviour
             if (playerFollowCamera != null) playerFollowCamera.SetActive(true);
             if (orbit != null) orbit.Deactivate();
         }
+    }
+
+    // --- NEW SECTION: one-time launch ---
+    [HideInInspector] public bool launched = false;
+
+    public void Launch(Vector3 hitDirection, float hitForce, float upwardForce)
+    {
+        if (launched) return;
+        launched = true;
+
+        SetRagdoll(true);
+
+        // Reset all rigidbodies before applying force
+        Rigidbody[] bodies = GetComponentsInChildren<Rigidbody>();
+        foreach (Rigidbody b in bodies)
+        {
+            b.linearVelocity= Vector3.zero;
+            b.angularVelocity = Vector3.zero;
+        }
+
+        // Slight upward angle
+        Vector3 launchDir = (hitDirection + Vector3.up * 0.25f).normalized;
+
+        // Add force to every limb
+        foreach (Rigidbody b in bodies)
+        {
+            b.AddForce(launchDir * hitForce + Vector3.up * upwardForce, ForceMode.Impulse);
+        }
+
     }
 
 #if UNITY_EDITOR
@@ -111,5 +143,6 @@ public class RagdollController : MonoBehaviour
         }
     }
 }
+
 #endif
 

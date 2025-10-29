@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.56f1 (9c7b5e468860) revision 10255198'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Education' Language: 'en' Physical Memory: 32437 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-29T12:25:35Z
+Date: 2025-10-28T12:41:26Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.56f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/02MADDOX.GREENSPOON/Maddox Greenspoon/Repositories/Unity Essentials/Ess
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-62162
+54485
 -job-worker-count
 5
 -background-job-worker-count
@@ -62,18 +62,18 @@ C:/Users/02MADDOX.GREENSPOON/Maddox Greenspoon/Repositories/Unity Essentials/Ess
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15464]  Target information:
+Player connection [23144]  Target information:
 
-Player connection [15464]  * "[IP] 10.202.144.9 [Port] 0 [Flags] 2 [Guid] 1027319326 [EditorId] 1027319326 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23144]  * "[IP] 10.202.144.9 [Port] 0 [Flags] 2 [Guid] 2836665030 [EditorId] 2836665030 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15464]  * "[IP] 192.168.247.1 [Port] 0 [Flags] 2 [Guid] 1027319326 [EditorId] 1027319326 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23144]  * "[IP] 192.168.247.1 [Port] 0 [Flags] 2 [Guid] 2836665030 [EditorId] 2836665030 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15464]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 1027319326 [EditorId] 1027319326 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23144]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 2836665030 [EditorId] 2836665030 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15464]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1027319326 [EditorId] 1027319326 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23144]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2836665030 [EditorId] 2836665030 [Version] 1048832 [Id] WindowsEditor(7,GUL-HS-2211SD09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15464] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23144] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23144] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 141.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 20.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.56f1 (9c7b5e468860)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Resources/UnitySubsystems
@@ -101,47 +101,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.003889 seconds.
-- Loaded All Assemblies, in  0.935 seconds
+Registered in 0.004505 seconds.
+- Loaded All Assemblies, in  0.389 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.315 seconds
-Domain Reload Profiling: 1248ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.318 seconds
+Domain Reload Profiling: 706ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (149ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (623ms)
-		LoadAssemblies (110ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (134ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (620ms)
-			TypeCache.Refresh (619ms)
-				TypeCache.ScanAssembly (609ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (139ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (315ms)
+	FinalizeReload (319ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (282ms)
+		SetupLoadedEditorAssemblies (272ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (126ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -151,8 +151,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.716 seconds
-Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.772 seconds
+Refreshing native plugins compatible for Editor in 8.46 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -160,55 +160,55 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.88 ms, found 3 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.756 seconds
-Domain Reload Profiling: 1468ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.908 seconds
+Domain Reload Profiling: 1674ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (516ms)
-		LoadAssemblies (289ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (524ms)
+		LoadAssemblies (326ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (301ms)
-			TypeCache.Refresh (222ms)
-				TypeCache.ScanAssembly (160ms)
-			BuildScriptInfoCaches (66ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (756ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (156ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (908ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (581ms)
+		SetupLoadedEditorAssemblies (725ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (145ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (197ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 7.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6427 unused Assets / (5.1 MB). Loaded Objects now: 7149.
-Memory consumption went from 154.0 MB to 148.9 MB.
-Total: 14.062900 ms (FindLiveObjects: 0.523000 ms CreateObjectMapping: 0.504200 ms MarkObjects: 10.340500 ms  DeleteObjects: 2.693900 ms)
+Unloading 6427 unused Assets / (5.0 MB). Loaded Objects now: 7149.
+Memory consumption went from 153.9 MB to 148.9 MB.
+Total: 18.461100 ms (FindLiveObjects: 0.733400 ms CreateObjectMapping: 0.920900 ms MarkObjects: 12.638800 ms  DeleteObjects: 4.166000 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.727 seconds
-Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.872 seconds
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -216,52 +216,44 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.845 seconds
-Domain Reload Profiling: 1571ms
-	BeginReloadAssembly (202ms)
+- Finished resetting the current domain, in  1.257 seconds
+Domain Reload Profiling: 2126ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (444ms)
-		LoadAssemblies (341ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (369ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
+		AnalyzeDomain (234ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (161ms)
+			BuildScriptInfoCaches (210ms)
 			ResolveRequiredComponents (12ms)
-	FinalizeReload (846ms)
+	FinalizeReload (1257ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (703ms)
+		SetupLoadedEditorAssemblies (1057ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (118ms)
-			ProcessInitializeOnLoadAttributes (375ms)
-			ProcessInitializeOnLoadMethodAttributes (185ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (565ms)
+			ProcessInitializeOnLoadMethodAttributes (278ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 11.44 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 11.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6425 unused Assets / (2.6 MB). Loaded Objects now: 7152.
-Memory consumption went from 154.6 MB to 152.0 MB.
-Total: 33.238900 ms (FindLiveObjects: 7.056900 ms CreateObjectMapping: 7.495800 ms MarkObjects: 15.671100 ms  DeleteObjects: 3.012400 ms)
+Unloading 6425 unused Assets / (5.4 MB). Loaded Objects now: 7152.
+Memory consumption went from 154.4 MB to 149.0 MB.
+Total: 15.379100 ms (FindLiveObjects: 0.704200 ms CreateObjectMapping: 1.059100 ms MarkObjects: 10.424100 ms  DeleteObjects: 3.190200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 3359.606254 seconds.
-  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Hatchback Scripted.prefab
-  artifactKey: Guid(0d84afc0ea5fcc7419de0b7a6608a794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Hatchback Scripted.prefab using Guid(0d84afc0ea5fcc7419de0b7a6608a794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5a6a12dc087f114e10fcf9b4b5976ec') in 0.7305844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-

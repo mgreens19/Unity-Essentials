@@ -2,42 +2,49 @@ using UnityEngine;
 
 public class CarHit : MonoBehaviour
 {
-    [Header("Impact Settings")]
-    public float hitForce = 1500f;   // how hard to fling
-    public float upwardForce = 300f; // extra lift
+    public float hitForce = 1500f;
+    public float upwardForce = 300f;
 
+    private bool hasHitPlayer = false;
 
     private void OnCollisionEnter(Collision collision)
     {
-        // If the car hits the player
+        if (hasHitPlayer) return;
+
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Find their ragdoll controller
+            hasHitPlayer = true;
+
+            // try find ragdoll controller on player root (or parent)
             RagdollController ragdoll = collision.gameObject.GetComponent<RagdollController>();
+            if (ragdoll == null)
+                ragdoll = collision.gameObject.GetComponentInChildren<RagdollController>();
+
             if (ragdoll != null)
             {
-                ragdoll.SetRagdoll(true); // enable ragdoll mode
-
-                // Pick a contact point and direction
+                // compute a good hit direction — use contact normal (away from car)
                 ContactPoint contact = collision.contacts[0];
-                Vector3 hitDirection = (contact.point - transform.position).normalized;
+                Vector3 hitDir = (contact.point - transform.position).normalized; // direction from car to contact
 
-                // Try to get a Rigidbody from the player (root or hips)
-                Rigidbody playerRoot = collision.rigidbody;
-                if (playerRoot == null)
+                // launch the ragdoll (this method ensures it only happens once)
+                ragdoll.Launch(hitDir, hitForce, upwardForce);
+
+                // --- prevent further collisions between this car and the ragdoll ---
+                // disable this car's collider immediately so it can't keep touching ragdoll limbs
+                Collider carCol = GetComponent<Collider>();
+                if (carCol != null) carCol.enabled = false;
+
+                // optionally, stop the car rigidbody so it doesn't keep nudging
+                Rigidbody carRb = GetComponent<Rigidbody>();
+                if (carRb != null)
                 {
-                    // if root doesn’t have one, try the hips
-                    var hips = ragdoll.hipsBone;
-                    if (hips != null)
-                        playerRoot = hips.GetComponent<Rigidbody>();
+                    carRb.linearVelocity = Vector3.zero;
+                    carRb.angularVelocity = Vector3.zero;
+                    carRb.isKinematic = true; // freeze it in place (optional)
                 }
 
-                // Apply force away from the car + a bit upward
-                if (playerRoot != null)
-                {
-                    Vector3 launchDirection = (hitDirection + Vector3.up * 0.3f).normalized;
-                    playerRoot.AddForce(launchDirection * hitForce + Vector3.up * upwardForce);
-                }
+                // optional: destroy or deactivate the car after a short delay
+                // Destroy(gameObject, 1.5f);
             }
         }
     }
