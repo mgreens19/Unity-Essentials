@@ -1,12 +1,16 @@
 ﻿using StarterAssets;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement; // for reloading the scene
+
 
 public class RagdollController : MonoBehaviour
 {
     public Transform hipsBone; // Drag your hips/spine bone here
     public Transform cameraRoot; // Drag PlayerCameraRoot here
     public GameObject playerFollowCamera;
+    public GameObject restartUI; // assign your Canvas UI object here
+
 
     private Rigidbody[] ragdollBodies;
     private Animator animator;
@@ -23,6 +27,16 @@ public class RagdollController : MonoBehaviour
         ThirdPersonController = GetComponent<MonoBehaviour>();
 
         SetRagdoll(false); // start normal
+    }
+
+    void Update()
+    {
+        if (launched && Input.GetKeyDown(KeyCode.Space))
+        {
+            if (restartUI != null)
+                restartUI.SetActive(false); // hide before reload
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
 
@@ -117,6 +131,9 @@ public class RagdollController : MonoBehaviour
             b.AddForce(launchDir * hitForce + Vector3.up * upwardForce, ForceMode.Impulse);
         }
 
+        // Show the restart UI
+        if (restartUI != null)
+            restartUI.SetActive(true);
     }
 
 #if UNITY_EDITOR

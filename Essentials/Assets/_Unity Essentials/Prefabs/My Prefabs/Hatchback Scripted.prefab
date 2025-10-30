@@ -169,8 +169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc69288b4f577944baed13100766194d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitForce: 1000
-  upwardForce: 50
+  hitForce: 400
+  upwardForce: 10
 --- !u!1 &1890389635657298401
 GameObject:
   m_ObjectHideFlags: 0
